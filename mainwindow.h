@@ -18,6 +18,8 @@ public:
 private slots:
     void on_btnSingleton_clicked();
 
+    void on_btnFactoryMethod1_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

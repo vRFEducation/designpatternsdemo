@@ -9,6 +9,12 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    FactoryMethod1/BMW.cpp \
+    FactoryMethod1/BaseCar.cpp \
+    FactoryMethod1/CarFactory.cpp \
+    FactoryMethod1/FactoryMethodClient.cpp \
+    FactoryMethod1/Ford.cpp \
+    FactoryMethod1/Honda.cpp \
     Singleton/Logger.cpp \
     Singleton/SingletonAnotherDialog.cpp \
     Singleton/SingletonDemoDialog.cpp \
@@ -16,6 +22,12 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    FactoryMethod1/BMW.h \
+    FactoryMethod1/BaseCar.h \
+    FactoryMethod1/CarFactory.h \
+    FactoryMethod1/FactoryMethodClient.h \
+    FactoryMethod1/Ford.h \
+    FactoryMethod1/Honda.h \
     Singleton/Logger.h \
     Singleton/SingletonAnotherDialog.h \
     Singleton/SingletonDemoDialog.h \
