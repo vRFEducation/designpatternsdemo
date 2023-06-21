@@ -5,6 +5,8 @@
 
 #include <FactoryMethod1/FactoryMethodClient.h>
 
+#include <FactoryMethod2/FactoryMethod2Client.h>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -29,5 +31,11 @@ void MainWindow::on_btnSingleton_clicked()
 void MainWindow::on_btnFactoryMethod1_clicked()
 {
     FactoryMethodClient client;
+}
+
+
+void MainWindow::on_btnFactoryMethod2_clicked()
+{
+    FactoryMethod2Client client;
 }
 

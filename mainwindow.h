@@ -20,6 +20,8 @@ private slots:
 
     void on_btnFactoryMethod1_clicked();
 
+    void on_btnFactoryMethod2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
