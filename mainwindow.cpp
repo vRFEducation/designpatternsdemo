@@ -7,6 +7,8 @@
 
 #include <FactoryMethod2/FactoryMethod2Client.h>
 
+#include <AbstractFactory/AbstractFactioryDemoDialog.h>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -37,5 +39,12 @@ void MainWindow::on_btnFactoryMethod1_clicked()
 void MainWindow::on_btnFactoryMethod2_clicked()
 {
     FactoryMethod2Client client;
+}
+
+
+void MainWindow::on_btnAbstractFactory_clicked()
+{
+    AbstractFactioryDemoDialog dlg;
+    dlg.exec();
 }
 

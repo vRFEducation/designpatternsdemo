@@ -9,6 +9,18 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    AbstractFactory/AbstractFactioryDemoDialog.cpp \
+    AbstractFactory/FactoryProducer.cpp \
+    AbstractFactory/NormalShapeFactory.cpp \
+    AbstractFactory/Rectangle.cpp \
+    AbstractFactory/RoundedRectangle.cpp \
+    AbstractFactory/RoundedShapeFactory.cpp \
+    AbstractFactory/RoundedSquare.cpp \
+    AbstractFactory/RoundedTriangle.cpp \
+    AbstractFactory/Shape.cpp \
+    AbstractFactory/ShapeFactory.cpp \
+    AbstractFactory/Square.cpp \
+    AbstractFactory/Triangle.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -29,6 +41,18 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    AbstractFactory/AbstractFactioryDemoDialog.h \
+    AbstractFactory/FactoryProducer.h \
+    AbstractFactory/NormalShapeFactory.h \
+    AbstractFactory/Rectangle.h \
+    AbstractFactory/RoundedRectangle.h \
+    AbstractFactory/RoundedShapeFactory.h \
+    AbstractFactory/RoundedSquare.h \
+    AbstractFactory/RoundedTriangle.h \
+    AbstractFactory/Shape.h \
+    AbstractFactory/ShapeFactory.h \
+    AbstractFactory/Square.h \
+    AbstractFactory/Triangle.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -48,6 +72,7 @@ HEADERS += \
     mainwindow.h
 
 FORMS += \
+    AbstractFactory/AbstractFactioryDemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \
     mainwindow.ui
