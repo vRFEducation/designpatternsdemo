@@ -34,6 +34,13 @@ SOURCES += \
     Builder1/Pepsi.cpp \
     Builder1/VegBurger.cpp \
     Builder1/WrapperPacking.cpp \
+    Builder2/Builder2DemoDialog.cpp \
+    Builder2/CivilEngineer.cpp \
+    Builder2/House.cpp \
+    Builder2/HouseBuilder.cpp \
+    Builder2/HousePlan.cpp \
+    Builder2/IglooHouseBuilder.cpp \
+    Builder2/TipiHouseBuilder.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -79,6 +86,13 @@ HEADERS += \
     Builder1/Pepsi.h \
     Builder1/VegBurger.h \
     Builder1/WrapperPacking.h \
+    Builder2/Builder2DemoDialog.h \
+    Builder2/CivilEngineer.h \
+    Builder2/House.h \
+    Builder2/HouseBuilder.h \
+    Builder2/HousePlan.h \
+    Builder2/IglooHouseBuilder.h \
+    Builder2/TipiHouseBuilder.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -100,6 +114,7 @@ HEADERS += \
 FORMS += \
     AbstractFactory/AbstractFactioryDemoDialog.ui \
     Builder1/Builder1DemoDialog.ui \
+    Builder2/Builder2DemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \
     mainwindow.ui

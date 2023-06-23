@@ -9,6 +9,7 @@
 
 #include <AbstractFactory/AbstractFactioryDemoDialog.h>
 #include <Builder1/Builder1DemoDialog.h>
+#include <Builder2/Builder2DemoDialog.h>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -53,6 +54,14 @@ void MainWindow::on_btnAbstractFactory_clicked()
 void MainWindow::on_btnBuilder_clicked()
 {
     Builder1DemoDialog dlg;
+    dlg.exec();
+
+}
+
+
+void MainWindow::on_btnBuilder2_clicked()
+{
+    Builder2DemoDialog dlg;
     dlg.exec();
 
 }
