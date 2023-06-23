@@ -21,6 +21,19 @@ SOURCES += \
     AbstractFactory/ShapeFactory.cpp \
     AbstractFactory/Square.cpp \
     AbstractFactory/Triangle.cpp \
+    Builder1/BottlePacking.cpp \
+    Builder1/Builder1DemoDialog.cpp \
+    Builder1/Burger.cpp \
+    Builder1/ChickenBurger.cpp \
+    Builder1/Coke.cpp \
+    Builder1/ColdDrink.cpp \
+    Builder1/Item.cpp \
+    Builder1/Meal.cpp \
+    Builder1/MealBuilder.cpp \
+    Builder1/Packing.cpp \
+    Builder1/Pepsi.cpp \
+    Builder1/VegBurger.cpp \
+    Builder1/WrapperPacking.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -53,6 +66,19 @@ HEADERS += \
     AbstractFactory/ShapeFactory.h \
     AbstractFactory/Square.h \
     AbstractFactory/Triangle.h \
+    Builder1/BottlePacking.h \
+    Builder1/Builder1DemoDialog.h \
+    Builder1/Burger.h \
+    Builder1/ChickenBurger.h \
+    Builder1/Coke.h \
+    Builder1/ColdDrink.h \
+    Builder1/Item.h \
+    Builder1/Meal.h \
+    Builder1/MealBuilder.h \
+    Builder1/Packing.h \
+    Builder1/Pepsi.h \
+    Builder1/VegBurger.h \
+    Builder1/WrapperPacking.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -73,6 +99,7 @@ HEADERS += \
 
 FORMS += \
     AbstractFactory/AbstractFactioryDemoDialog.ui \
+    Builder1/Builder1DemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \
     mainwindow.ui

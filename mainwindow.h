@@ -24,6 +24,8 @@ private slots:
 
     void on_btnAbstractFactory_clicked();
 
+    void on_btnBuilder_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
