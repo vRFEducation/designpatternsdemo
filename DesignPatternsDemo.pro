@@ -41,6 +41,10 @@ SOURCES += \
     Builder2/HousePlan.cpp \
     Builder2/IglooHouseBuilder.cpp \
     Builder2/TipiHouseBuilder.cpp \
+    Composite/Box.cpp \
+    Composite/Component.cpp \
+    Composite/CompositDemoDialog.cpp \
+    Composite/ProductLeaf.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -93,6 +97,10 @@ HEADERS += \
     Builder2/HousePlan.h \
     Builder2/IglooHouseBuilder.h \
     Builder2/TipiHouseBuilder.h \
+    Composite/Box.h \
+    Composite/Component.h \
+    Composite/CompositDemoDialog.h \
+    Composite/ProductLeaf.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -115,6 +123,7 @@ FORMS += \
     AbstractFactory/AbstractFactioryDemoDialog.ui \
     Builder1/Builder1DemoDialog.ui \
     Builder2/Builder2DemoDialog.ui \
+    Composite/CompositDemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \
     mainwindow.ui

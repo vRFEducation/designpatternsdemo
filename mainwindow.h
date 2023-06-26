@@ -28,6 +28,8 @@ private slots:
 
     void on_btnBuilder2_clicked();
 
+    void on_btnComposite_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
