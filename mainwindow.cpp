@@ -8,6 +8,7 @@
 #include <FactoryMethod2/FactoryMethod2Client.h>
 
 #include <AbstractFactory/AbstractFactioryDemoDialog.h>
+#include <Adapter1/Adapter1DemoDialog.h>
 #include <Builder1/Builder1DemoDialog.h>
 #include <Builder2/Builder2DemoDialog.h>
 #include <Composite/CompositDemoDialog.h>
@@ -73,5 +74,12 @@ void MainWindow::on_btnComposite_clicked()
     CompositDemoDialog dlg;
     dlg.exec();
 
+}
+
+
+void MainWindow::on_btnAdapter1_clicked()
+{
+    Adapter1DemoDialog dlg;
+    dlg.exec();
 }
 

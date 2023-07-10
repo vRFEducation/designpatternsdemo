@@ -21,6 +21,10 @@ SOURCES += \
     AbstractFactory/ShapeFactory.cpp \
     AbstractFactory/Square.cpp \
     AbstractFactory/Triangle.cpp \
+    Adapter1/Adapter1DemoDialog.cpp \
+    Adapter1/AdvancedStockAnalyzer.cpp \
+    Adapter1/StockAdapter.cpp \
+    Adapter1/StockInformation.cpp \
     Builder1/BottlePacking.cpp \
     Builder1/Builder1DemoDialog.cpp \
     Builder1/Burger.cpp \
@@ -77,6 +81,10 @@ HEADERS += \
     AbstractFactory/ShapeFactory.h \
     AbstractFactory/Square.h \
     AbstractFactory/Triangle.h \
+    Adapter1/Adapter1DemoDialog.h \
+    Adapter1/AdvancedStockAnalyzer.h \
+    Adapter1/StockAdapter.h \
+    Adapter1/StockInformation.h \
     Builder1/BottlePacking.h \
     Builder1/Builder1DemoDialog.h \
     Builder1/Burger.h \
@@ -121,6 +129,7 @@ HEADERS += \
 
 FORMS += \
     AbstractFactory/AbstractFactioryDemoDialog.ui \
+    Adapter1/Adapter1DemoDialog.ui \
     Builder1/Builder1DemoDialog.ui \
     Builder2/Builder2DemoDialog.ui \
     Composite/CompositDemoDialog.ui \

@@ -30,6 +30,8 @@ private slots:
 
     void on_btnComposite_clicked();
 
+    void on_btnAdapter1_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
