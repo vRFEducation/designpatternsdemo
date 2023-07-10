@@ -20,6 +20,8 @@ private slots:
 
     void on_btnAdapterCall_clicked();
 
+    void on_btnClassAdapter_clicked();
+
 private:
     Ui::Adapter1DemoDialog *ui;
 };

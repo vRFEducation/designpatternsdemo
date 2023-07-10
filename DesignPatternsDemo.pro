@@ -24,6 +24,7 @@ SOURCES += \
     Adapter1/Adapter1DemoDialog.cpp \
     Adapter1/AdvancedStockAnalyzer.cpp \
     Adapter1/StockAdapter.cpp \
+    Adapter1/StockClassAdapter.cpp \
     Adapter1/StockInformation.cpp \
     Builder1/BottlePacking.cpp \
     Builder1/Builder1DemoDialog.cpp \
@@ -84,6 +85,7 @@ HEADERS += \
     Adapter1/Adapter1DemoDialog.h \
     Adapter1/AdvancedStockAnalyzer.h \
     Adapter1/StockAdapter.h \
+    Adapter1/StockClassAdapter.h \
     Adapter1/StockInformation.h \
     Builder1/BottlePacking.h \
     Builder1/Builder1DemoDialog.h \
