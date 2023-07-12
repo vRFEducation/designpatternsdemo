@@ -32,6 +32,8 @@ private slots:
 
     void on_btnAdapter1_clicked();
 
+    void on_btnProxy_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

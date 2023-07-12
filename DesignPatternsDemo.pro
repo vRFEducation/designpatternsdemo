@@ -63,6 +63,10 @@ SOURCES += \
     FactoryMethod2/Mobile.cpp \
     FactoryMethod2/MobileCreator.cpp \
     FactoryMethod2/Product.cpp \
+    Proxy/Internet.cpp \
+    Proxy/ProxyDemoDialog.cpp \
+    Proxy/ProxyInternet.cpp \
+    Proxy/RealInternet.cpp \
     Singleton/Logger.cpp \
     Singleton/SingletonAnotherDialog.cpp \
     Singleton/SingletonDemoDialog.cpp \
@@ -124,6 +128,10 @@ HEADERS += \
     FactoryMethod2/Mobile.h \
     FactoryMethod2/MobileCreator.h \
     FactoryMethod2/Product.h \
+    Proxy/Internet.h \
+    Proxy/ProxyDemoDialog.h \
+    Proxy/ProxyInternet.h \
+    Proxy/RealInternet.h \
     Singleton/Logger.h \
     Singleton/SingletonAnotherDialog.h \
     Singleton/SingletonDemoDialog.h \
@@ -135,6 +143,7 @@ FORMS += \
     Builder1/Builder1DemoDialog.ui \
     Builder2/Builder2DemoDialog.ui \
     Composite/CompositDemoDialog.ui \
+    Proxy/ProxyDemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \
     mainwindow.ui
