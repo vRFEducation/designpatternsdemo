@@ -50,6 +50,13 @@ SOURCES += \
     Composite/Component.cpp \
     Composite/CompositDemoDialog.cpp \
     Composite/ProductLeaf.cpp \
+    Decorator/BaseDecorator.cpp \
+    Decorator/DecoratorDemoDialog.cpp \
+    Decorator/FacebookDecorator.cpp \
+    Decorator/INotifier.cpp \
+    Decorator/Notifier.cpp \
+    Decorator/SMSDecorator.cpp \
+    Decorator/SlackDecorator.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -115,6 +122,13 @@ HEADERS += \
     Composite/Component.h \
     Composite/CompositDemoDialog.h \
     Composite/ProductLeaf.h \
+    Decorator/BaseDecorator.h \
+    Decorator/DecoratorDemoDialog.h \
+    Decorator/FacebookDecorator.h \
+    Decorator/INotifier.h \
+    Decorator/Notifier.h \
+    Decorator/SMSDecorator.h \
+    Decorator/SlackDecorator.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -143,6 +157,7 @@ FORMS += \
     Builder1/Builder1DemoDialog.ui \
     Builder2/Builder2DemoDialog.ui \
     Composite/CompositDemoDialog.ui \
+    Decorator/DecoratorDemoDialog.ui \
     Proxy/ProxyDemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \

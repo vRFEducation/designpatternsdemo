@@ -12,6 +12,7 @@
 #include <Builder1/Builder1DemoDialog.h>
 #include <Builder2/Builder2DemoDialog.h>
 #include <Composite/CompositDemoDialog.h>
+#include <Decorator/DecoratorDemoDialog.h>
 #include <Proxy/ProxyDemoDialog.h>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -88,6 +89,13 @@ void MainWindow::on_btnAdapter1_clicked()
 void MainWindow::on_btnProxy_clicked()
 {
     ProxyDemoDialog dlg;
+    dlg.exec();
+}
+
+
+void MainWindow::on_btnDecorator_clicked()
+{
+    DecoratorDemoDialog dlg;
     dlg.exec();
 }
 

@@ -34,6 +34,8 @@ private slots:
 
     void on_btnProxy_clicked();
 
+    void on_btnDecorator_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
