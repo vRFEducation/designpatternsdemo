@@ -63,6 +63,11 @@ SOURCES += \
     Decorator_2/Descorator2DemoDialog.cpp \
     Decorator_2/EncryptionDecorator.cpp \
     Decorator_2/FileDataSource.cpp \
+    Facade/Battery.cpp \
+    Facade/CoolingSystem.cpp \
+    Facade/Engine.cpp \
+    Facade/FacadeDemoDialog.cpp \
+    Facade/SystemFacade.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -141,6 +146,11 @@ HEADERS += \
     Decorator_2/Descorator2DemoDialog.h \
     Decorator_2/EncryptionDecorator.h \
     Decorator_2/FileDataSource.h \
+    Facade/Battery.h \
+    Facade/CoolingSystem.h \
+    Facade/Engine.h \
+    Facade/FacadeDemoDialog.h \
+    Facade/SystemFacade.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -171,6 +181,7 @@ FORMS += \
     Composite/CompositDemoDialog.ui \
     Decorator/DecoratorDemoDialog.ui \
     Decorator_2/Descorator2DemoDialog.ui \
+    Facade/FacadeDemoDialog.ui \
     Proxy/ProxyDemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \

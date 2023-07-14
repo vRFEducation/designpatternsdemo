@@ -14,6 +14,7 @@
 #include <Composite/CompositDemoDialog.h>
 #include <Decorator/DecoratorDemoDialog.h>
 #include <Decorator_2/Descorator2DemoDialog.h>
+#include <Facade/FacadeDemoDialog.h>
 #include <Proxy/ProxyDemoDialog.h>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -106,5 +107,12 @@ void MainWindow::on_btnDecorator_2_clicked()
     Descorator2DemoDialog dlg;
     dlg.exec();
 
+}
+
+
+void MainWindow::on_btnFacade_clicked()
+{
+    FacadeDemoDialog dlg;
+    dlg.exec();
 }
 
