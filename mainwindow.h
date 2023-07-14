@@ -36,6 +36,8 @@ private slots:
 
     void on_btnDecorator_clicked();
 
+    void on_btnDecorator_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

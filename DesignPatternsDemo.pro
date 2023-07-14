@@ -57,6 +57,12 @@ SOURCES += \
     Decorator/Notifier.cpp \
     Decorator/SMSDecorator.cpp \
     Decorator/SlackDecorator.cpp \
+    Decorator_2/CompressionDecorator.cpp \
+    Decorator_2/DataSource.cpp \
+    Decorator_2/DataSourceDecorator.cpp \
+    Decorator_2/Descorator2DemoDialog.cpp \
+    Decorator_2/EncryptionDecorator.cpp \
+    Decorator_2/FileDataSource.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -129,6 +135,12 @@ HEADERS += \
     Decorator/Notifier.h \
     Decorator/SMSDecorator.h \
     Decorator/SlackDecorator.h \
+    Decorator_2/CompressionDecorator.h \
+    Decorator_2/DataSource.h \
+    Decorator_2/DataSourceDecorator.h \
+    Decorator_2/Descorator2DemoDialog.h \
+    Decorator_2/EncryptionDecorator.h \
+    Decorator_2/FileDataSource.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -158,6 +170,7 @@ FORMS += \
     Builder2/Builder2DemoDialog.ui \
     Composite/CompositDemoDialog.ui \
     Decorator/DecoratorDemoDialog.ui \
+    Decorator_2/Descorator2DemoDialog.ui \
     Proxy/ProxyDemoDialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDemoDialog.ui \
